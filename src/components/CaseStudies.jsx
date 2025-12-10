@@ -33,7 +33,7 @@ const CaseStudies = () => {
   return (
     <section id='case-studies' className="py-24 bg-slate-50">
       <div className="container px-4 mx-auto max-w-7xl">
-        <div className="flex flex-col items-end justify-between gap-4 mb-16 md:flex-row">
+        <div className="flex flex-col items-center justify-between gap-4 mb-16 text-center md:flex-row md:items-end md:text-left">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
